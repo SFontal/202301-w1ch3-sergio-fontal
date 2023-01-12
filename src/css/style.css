@@ -1,0 +1,44 @@
+@import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+
+html {
+  color: #fff;
+  background-color: #ffc845;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Arial;
+  font-size: 5px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #279989;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  display: flex;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+nav {
+  font-size: 3.3rem;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:after {
+  content: "x";
+  color: #279989;
+}
